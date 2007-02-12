@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	User
 Summary:	User - API for locating user information regardless of OS
-Summary(pl):	User - API do znajdowania informacji o uøytkowniku niezaleønie od systemu operacyjnego
+Summary(pl.UTF-8):   User - API do znajdowania informacji o u≈ºytkowniku niezale≈ºnie od systemu operacyjnego
 Name:		perl-User
 Version:	1.6
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module is allows applications to retrieve per-user
 characteristics.
 
-%description -l pl
-Ten modu≥ pozwala aplikacjom na pozyskanie informacji o uøytkowniku.
+%description -l pl.UTF-8
+Ten modu≈Ç pozwala aplikacjom na pozyskanie informacji o u≈ºytkowniku.
 
 %prep
 %setup -q -n %{pdir}-%{version}
