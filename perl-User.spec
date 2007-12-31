@@ -7,13 +7,13 @@
 Summary:	User - API for locating user information regardless of OS
 Summary(pl.UTF-8):	User - API do znajdowania informacji o użytkowniku niezależnie od systemu operacyjnego
 Name:		perl-User
-Version:	1.6
+Version:	1.8
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
-# Source0-md5:	9783bb690ee2cf45610da132caffee01
+# Source0-md5:	b8b2c677dc4ef08e84b5b4f8cb021540
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
