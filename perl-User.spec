@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	User
 Summary:	User - API for locating user information regardless of OS
 Summary(pl.UTF-8):	User - API do znajdowania informacji o użytkowniku niezależnie od systemu operacyjnego
